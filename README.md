@@ -18,6 +18,7 @@ Customer-Segmentation-Clustering/
 │   └── cluster_comparison.png
 │── README.md                               # Project overview
 │── requirements.txt                        # Python dependencies
+
 🛠 Tools & Technologies
 
 Python: Data preprocessing, clustering, visualization
@@ -25,6 +26,7 @@ Python: Data preprocessing, clustering, visualization
 Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 Jupyter Notebook: Development environment
+
 
 📊 Methodology
 
@@ -36,17 +38,20 @@ Created new feature: Customer_Since_Days
 
 Removed irrelevant columns (ID, Z_CostContact, Z_Revenue)
 
+
 Feature Engineering
 
 Encoded categorical variables (Education, Marital_Status)
 
 Standardized features using StandardScaler
 
+
 Clustering
 
 Used Elbow Method to determine optimal K (=3)
 
 Applied K-Means Clustering and assigned cluster labels
+
 
 Visualization
 
@@ -64,6 +69,7 @@ Cluster 1 – Budget Buyers: Low income, low spending → Discounts, bundles, re
 
 Cluster 2 – Value Seekers: Moderate income, active buyers → Loyalty rewards, cross-selling
 
+
 📈 Results & Business Impact
 
 Identified 3 distinct customer personas
@@ -72,15 +78,19 @@ Enabled targeted marketing strategies for each cluster
 
 Provides a roadmap for improving customer engagement and ROI
 
+
 🚀 How to Run
 
 Clone this repository
 git clone https://github.com/your-username/Customer-Segmentation-Clustering.git
 cd Customer-Segmentation-Clustering
+
 Install dependencies
 pip install -r requirements.txt
+
 Open the Jupyter Notebook
 jupyter notebook notebooks/customer_segmentation.ipynb
+
 📌 Future Improvements
 
 Perform RFM Analysis (Recency, Frequency, Monetary) for deeper insights
@@ -88,6 +98,7 @@ Perform RFM Analysis (Recency, Frequency, Monetary) for deeper insights
 Experiment with Hierarchical Clustering and DBSCAN
 
 Automate marketing strategy dashboards in Power BI/Tableau
+
 
 📑 Deliverables
 
